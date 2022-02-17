@@ -1,0 +1,15 @@
+<html>
+<h2>Read File in Javascript</h2>
+<script language="JavaScript">
+function openFile() {
+window.location= 'file:///' + document.form.selectedFile.value;
+}
+</script>
+<body>
+<form name="form">
+<input type="file" name="selectedFile">
+<input type=button onClick="openFile()" value="Open File">
+</form>
+</body>
+</html>
+
